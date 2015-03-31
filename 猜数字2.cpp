@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {int num1, num2, num3, yournum1, yournum2, yournum3;
  char x;
- int i = 0, j = 0, p = 0, k = 0, q = 0; //计数器 
+ int i = 0, j = 0, k = 0, q = 0; //计数器 
  
 	while(true)
 	{
@@ -23,6 +23,7 @@ int main()
 			num3 = rand()% 10;
 		 	}
 		 	while (num1 == num2 || num1 == num3 || num2 == num3);
+		 	int p = 0; 
 			while(p < 7)
 				{
 				int rnum = 0, wnum = 0;
